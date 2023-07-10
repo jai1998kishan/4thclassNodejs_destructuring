@@ -39,7 +39,9 @@ console.log(hobby1,hobby2);  //there is no square bracket because we are accessi
 
 
 
-// console.log(key1, key3)
+// console.log(key1, key3)   //output 1   1000
+
+
 
 //question 2...........
 const arr1 = ['value1', 'value2']
@@ -48,9 +50,9 @@ const [ val1, val2 ] = arr1
 
 
 
-console.log(val1)
+console.log(val1)    //value1
 
-console.log(val2)
+console.log(val2)    //value2
 
 
 
@@ -62,9 +64,10 @@ let { key1, key3} = obj1
 
 
 
-key1 = 20;
+key1 = 20;   //here we are changing the value of of normal variable
 
-key3 = 123
+key3 = 123   //here we are changing the value of of normal variable
 
-console.log(obj1.key1, obj1.key3)
+console.log(obj1.key1, obj1.key3)   //output   1    1000   
+//this is because we are accessing the object
 
